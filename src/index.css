@@ -131,7 +131,6 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
     height: auto;
     object-fit: contain;
-    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
     transition: var(--transition);
 }
 
