@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: clamp(2rem, 4vw, 3.2rem);
   font-family: 'Newsreader', serif;
-  font-weight: 300;
+  font-weight: 200;
     margin-bottom: 1.5rem;
     color: var(--platinum-white);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
