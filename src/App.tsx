@@ -48,22 +48,10 @@ function App() {
             <div className="logo-section fade-in">
               <div className="logo-placeholder">
                 <img 
-                  src="/logo-placeholder.png" 
-                  alt="IMPERIUM Logo" 
+                  src="/logo.png" 
+                  alt="IMPERIUM - Where Leaders Become Legends" 
                   className="brand-logo"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                    const placeholder = target.nextElementSibling as HTMLElement;
-                    if (placeholder) placeholder.style.display = 'block';
-                  }}
                 />
-                <div className="logo-fallback">
-                  <div className="logo-box">
-                    <span>LOGO</span>
-                    <small>Replace with your logo</small>
-                  </div>
-                </div>
               </div>
             </div>
             <h2 className="hero-title fade-in delay-1">Where Inner Mastery Meets Strategic Power</h2>
