@@ -54,7 +54,9 @@ function App() {
                 />
               </div>
             </div>
-            <h2 className="hero-title fade-in delay-1">Where Inner Mastery Meets Strategic Power</h2>
+            <h2 className="hero-title fade-in delay-1">
+              Where Inner Mastery Meets <span className="strategic-power">Strategic Power</span>
+            </h2>
             
             {/* Coming Soon Message */}
             <div className="coming-soon-container fade-in delay-3">
