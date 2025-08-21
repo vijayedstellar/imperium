@@ -126,42 +126,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand-logo {
-    max-height: 120px;
-    max-width: 400px;
+    max-height: 150px;
+    max-width: 500px;
     width: auto;
     height: auto;
     object-fit: contain;
     filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
+    transition: var(--transition);
 }
 
-.logo-fallback {
-    display: block;
-}
-
-.logo-box {
-    background: linear-gradient(135deg, var(--imperial-gold), #F4E4BC);
-    border: 2px dashed rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
-    padding: 2rem 3rem;
-    text-align: center;
-    color: var(--primary-navy);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.logo-box span {
-    font-family: 'Newsreader', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    display: block;
-    margin-bottom: 0.5rem;
-    letter-spacing: 0.1em;
-}
-
-.logo-box small {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    opacity: 0.8;
-    font-weight: 400;
+.brand-logo:hover {
+    transform: scale(1.05);
 }
 
 .hero-title {
@@ -464,20 +439,8 @@ section {
     }
     
     .brand-logo {
-        max-height: 80px;
-        max-width: 280px;
-    }
-    
-    .logo-box {
-        padding: 1.5rem 2rem;
-    }
-    
-    .logo-box span {
-        font-size: 1.8rem;
-    }
-    
-    .logo-box small {
-        font-size: 0.8rem;
+        max-height: 100px;
+        max-width: 350px;
     }
     
     .hero-title {
